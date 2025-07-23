@@ -231,7 +231,7 @@ with col2:
         legend=False,
         missing_kwds={"color": "lightgrey", "label": "No data"},
         ax=ax
-    )
+    ) 
 
     text_effect = path_effects.withStroke(linewidth=2, foreground="white")
     drawn_labels = []
