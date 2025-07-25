@@ -149,6 +149,7 @@ df = load_data()
 st.title("📈 State-Level Initiative Dashboard")
 st.markdown("""
 H1 2025 saw GA MX driving 8 high-impact initiatives across state governments — here’s what we achieved.
+(A dummy dataset is used for demonstration purposes).
 """)
 
 initiative_name = st.selectbox("Select an initiative:", list(initiatives.keys()))

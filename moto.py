@@ -107,6 +107,8 @@ st.markdown("""
 This interactive map shows the **regulatory status** of the Moto initiative across Mexican States.
 
 Hover over each state to view legal and contextual details.
+(A dummy dataset is used for demonstration purposes).           
+
 """)
 
 st_folium(m, use_container_width=True, height=600)

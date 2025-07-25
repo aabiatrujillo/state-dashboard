@@ -1,36 +1,33 @@
 ent,entidad,Status,color,Legal Basis,Reference,Content
-1,AGU,Explicitly prohibited,Red+,Ley de Movilidad del Estado de Aguascalientes,Art 135°,-
-2,BC,Explicitly prohibited,Red+,Ley de Movilidad Sustentable y de Transporte de Baja California,Art 92°,-
-3,BCS,Not regulated,Gray,Ley de Transporte del Estado de Chihuahua,"Art 139°, fracc VIII","The vehicle must have seat belts for all passengers, front airbags, ABS brakes, first aid tools, ABC universal fire extinguisher, at least four doors, window tinting not exceeding 20%, air conditioning, and reflective safety signs."
-4,CAM,Implicitly prohibited,Red,Reglamento en Materia de Transporte de la Let de Movilidad y Seguridad Vial del Estado de Campeche,Art 246°,It establishes that 4-wheel vehicles must be used.
-7,CHP,Implicitly prohibited,Red,Ley de Movilidad y Transporte del Esado de Chiapas,Art 116°,"Requires that the vehicle have seat belts, air conditioning, sound system, and front airbags."
-8,CHH,Not regulated,Gray,-,-,-
-9,CDMX,Explicitly prohibited,Red+,Reglamento de la Ley de Movilidad de la CDMX,Art 58°,-
-5,COA,Implicitly prohibited,Red,Ley de Transporte y Movilidad Sustentable para el Estado de Coahuila,Art 100°,It establishes that sedan-type vehicles must be used.
-6,COL,Not regulated,Gray,-,-,-
-10,DUR,Implicitly prohibited,Red,Ley de Transportes para el Estado de Durango,Art 95° Duodecies,"Requires that the vehicle have seat belts, air conditioning, sound system, and front airbags."
-11,GUA,Implicitly prohibited,Red,Ley de Movilidad del Estado de Guanajuato y sus municipios,Art112° Bis,It establishes that the driver must have a type A or B license; type D (motorcycle) is not valid.
-12,GRO,Not regulated,Gray,-,-,-
-13,HID,Not regulated,Gray,Ley de Movilidad y Transporte para el Estado de Hidalgo,Art 69°,It establishes that all individual transport services must use sedans or station wagons.
-14,JAL,Implicitly prohibited,Red,Ley de Movilidad y Transporte del Estado de Jalisco ,"Art 215° fracc. XVI
-Art 302°
-","It prohibits the use of motorcycles for transport services without prior authorization (Art. 215). It establishes that vehicles from transport companies must have an ""interior""."
-15,MEX,Not regulated,Gray,Ley de Movilidad  y Seguridad Vial del Estado de México y sus Municipios,Art 75°,"It establishes that mototaxi services must be linked to bases, terminals, or authorized sites."
-16,MIC,Explicitly prohibited,Red+,Ley General de Movilidad y Seguridad Vial del Estado de Michoacán,Art 225°,-
-17,MOR,Not regulated,Gray,-,-,-
-18,NAY,Implicitly prohibited,Red,Ley de Movilidad del Estado de Nayarit,Art 371°,"Requires that the vehicle have seat belts, air conditioning, four doors, sound system, and front airbags."
-19,NLE,Explicitly prohibited,Red+,"Ley de Movilidad Sostenible, de accesibilidad y seguirdad vial para el Estado de Nuevo León",Art 105°,"Requires at least front airbags, air conditioning, and ABS brakes."
-20,OAX,Implicitly prohibited,Red,Ley de Movilidad para el Estado de Oaxaca ,Art 72°,It establishes that mototaxi concessions will only be granted to individuals.
-21,PUE,Explicitly prohibited,Red+,Reglamento de la Ley de Transporte del Estado de Puebla,"Art 31°
-Art 40°","The Ministry of Mobility will “promote” that vehicles include seat belts, front airbags, ABS brakes, child restraint anchors, and electronic stability control (Art. 31). Vehicles must have a minimum invoice value of 3000 UMAs (Art. 40)."
-22,QUE,Not regulated,Gray,Ley de la Agencia de Movilidad y Modalidades de Transporte Público para el Estado de Querétarp,Art 121° Noniesvicies ,"It establishes that vehicles must have four doors, air conditioning, seat belts, and front airbags."
-23,ROO,Implicitly prohibited,Red,Ley de Movilidad del Estado de Quintana Roo,Art 163° Fracc. II,"It establishes that vehicles must have four doors, air conditioning, sound system, seat belts, and front airbags."
-24,SLP,Implicitly prohibited,Red,Ley de Transporte Público del Estado de San Luis Potosí,"Art 71° Fracc I, inciso A","The vehicle must have a capacity for 5 people, airbags, anti-lock brakes, and a 260-liter trunk."
-25,SIN,Not regulated,Gray,-,-,-
-26,SON,Allowed,Green,Ley de Transporte del Estado de Sonora,Art 20°,The service from network companies can be “provided using any type of transport”.
-27,TAB,Implicitly prohibited,Red,Reglamento de la Ley de Movilidad para el Estado de Tabasco,Art 88° Fracc. I,Any vehicle used to provide individual passenger transport service in any mode must have four doors.
-28,TAM,Allowed,Green,Ley de Transporte del Estado de Tamaulipas,Art 33° Quindecies,"It establishes that vehicles must have four doors, air conditioning, seat belts, and front airbags."
-29,TLA,Not regulated,Gray,Ley de Comunicaciones y Transporte,Art 42° Quinquies,It establishes that platform-based services are considered public transport but does not specify further regulation.
-30,VER,Not regulated,Gray,Ley de Tránsito y Transporte del Estado de Veracruz ,Art 118°,The only passenger transport service considered is taxi.
-31,YUC,Implicitly prohibited,Red,Ley de Movilidad y Seguridad Vial del Estado de Yucatán,Art 143°,The service may only be provided by four-wheeled motor vehicles.
-32,ZAC,Not regulated,Gray,-,-,
+1,AGU,Explicitly prohibited,Red+,Law X,Art X°,Description
+2,BC,Not regulated,Gray,Law X,Art X°,Description
+3,BCS,Implicitly prohibited,Red,Law X,Art X°,Description
+4,CAM,Explicitly prohibited,Red+,Law X,Art X°,Description
+7,CHP,Explicitly prohibited,Red+,Law X,Art X°,Description
+8,CHH,Not regulated,Gray,Law X,Art X°,Description
+9,CDMX,Implicitly prohibited,Red,Law X,Art X°,Description
+5,COA,Explicitly prohibited,Red+,Law X,Art X°,Description
+6,COL,Explicitly prohibited,Red+,Law X,Art X°,Description
+10,DUR,Not regulated,Gray,Law X,Art X°,Description
+11,GUA,Implicitly prohibited,Red,Law X,Art X°,Description
+12,GRO,Explicitly prohibited,Red+,Law X,Art X°,Description
+13,HID,Explicitly prohibited,Red+,Law X,Art X°,Description
+14,JAL,Explicitly prohibited,Red+,Law X,Art X°,Description
+15,MEX,Not regulated,Gray,Law X,Art X°,Description
+16,MIC,Implicitly prohibited,Red,Law X,Art X°,Description
+17,MOR,Explicitly prohibited,Red+,Law X,Art X°,Description
+18,NAY,Explicitly prohibited,Red+,Law X,Art X°,Description
+19,NLE,Not regulated,Gray,Law X,Art X°,Description
+20,OAX,Implicitly prohibited,Red,Law X,Art X°,Description
+21,PUE,Explicitly prohibited,Red+,Law X,Art X°,Description
+22,QUE,Explicitly prohibited,Red+,Law X,Art X°,Description
+23,ROO,Not regulated,Gray,Law X,Art X°,Description
+24,SLP,Implicitly prohibited,Red,Law X,Art X°,Description
+25,SIN,Explicitly prohibited,Red+,Law X,Art X°,Description
+26,SON,Explicitly prohibited,Red+,Law X,Art X°,Description
+27,TAB,Not regulated,Gray,Law X,Art X°,Description
+28,TAM,Implicitly prohibited,Red,Law X,Art X°,Description
+29,TLA,Explicitly prohibited,Red+,Law X,Art X°,Description
+30,VER,Explicitly prohibited,Red+,Law X,Art X°,Description
+31,YUC,Not regulated,Gray,Law X,Art X°,Description
+32,ZAC,Implicitly prohibited,Red,Law X,Art X°,Description
