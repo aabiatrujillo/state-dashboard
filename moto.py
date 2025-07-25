@@ -109,5 +109,5 @@ This interactive map shows the **regulatory status** of the Moto initiative acro
 Hover over each state to view legal and contextual details.
 """)
 
-st_folium(m, use_container_width=True, height=500)
+st_folium(m, use_container_width=True, height=600)
 
