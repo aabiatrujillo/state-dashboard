@@ -1,15 +1,14 @@
 import streamlit as st
 import geopandas as gpd
 import pandas as pd
-import folium
-from folium.features import GeoJsonTooltip
-from streamlit_folium import st_folium
+import pydeck as pdk
+import json
 
 # ---------------------------
 # Page setup
 # ---------------------------
 
-st.set_page_config(page_title="Moto Initiative Map (Folium)", layout="wide")
+st.set_page_config(page_title="Moto Initiative Map (Pydeck)", layout="wide")
 
 # ---------------------------
 # Load data
@@ -40,63 +39,68 @@ df = load_moto()
 gdf = gdf.merge(df, on=["ent", "entidad"], how="left")
 
 # ---------------------------
-# Define color mapping
+# Define color mapping (RGBA)
 # ---------------------------
 
 color_dict = {
-    "Red+": "#8B0000",     # Dark Red
-    "Red": "#FF6347",      # Tomato
-    "Gray": "#A9A9A9",     # Dark Gray
-    "Green": "#228B22"     # Forest Green
+    "Red+": [139, 0, 0, 120],      # Dark Red, semi-transparent
+    "Red": [255, 99, 71, 120],     # Tomato, semi-transparent
+    "Gray": [169, 169, 169, 120],  # Dark Gray, semi-transparent
+    "Green": [34, 139, 34, 120]    # Forest Green, semi-transparent
 }
 
-def get_color(color_label):
-    return color_dict.get(color_label, "#D3D3D3")  # Default: light gray
+# Apply fill color
+gdf["fill_color"] = gdf["color"].apply(lambda c: color_dict.get(c, [211, 211, 211, 120]))
 
 # ---------------------------
-# Create Folium map
+# Build GeoJSON + tooltips
 # ---------------------------
 
-m = folium.Map(
-    location=[23.6345, -102.5528],
-    zoom_start=5,
-    tiles="CartoDB positron"
+geojson_data = json.loads(gdf.to_json())
+
+for feature in geojson_data["features"]:
+    props = feature["properties"]
+    props["fill_color"] = color_dict.get(props.get("color"), [211, 211, 211, 120])
+    
+    # ✅ Ensure correct handling of AMAM field (as number or string)
+    amam_raw = props.get("amam")
+    amam_value = "Yes" if str(int(float(amam_raw))) == "1" else "No" if amam_raw is not None else "N/A"
+    
+    props["tooltip"] = f"""
+        <b>{props.get('entidad')}</b><br>
+        <b>AMAM:</b> {amam_value}<br>
+        <b>Status:</b> {props.get('Status', 'N/A')}<br>
+        <b>Legal Basis:</b> {props.get('Legal Basis', 'N/A')}<br>
+        <b>Reference:</b> {props.get('Reference', 'N/A')}<br>
+        <b>Content:</b> {props.get('Content', 'N/A')}
+    """
+
+# ---------------------------
+# Pydeck GeoJsonLayer only
+# ---------------------------
+
+polygon_layer = pdk.Layer(
+    "GeoJsonLayer",
+    geojson_data,
+    stroked=True,
+    filled=True,
+    extruded=False,
+    get_fill_color="properties.fill_color",
+    get_line_color=[0, 0, 0],
+    line_width_min_pixels=1,
+    pickable=True,
 )
 
 # ---------------------------
-# Add polygons to map
+# Viewport
 # ---------------------------
 
-def style_function(feature):
-    color = get_color(feature["properties"].get("color"))
-    return {
-        "fillColor": color,
-        "color": "black",
-        "weight": 0.8,
-        "fillOpacity": 0.3,  # 🔹 More transparent
-    }
-
-tooltip = GeoJsonTooltip(
-    fields=["entidad", "Status", "Legal Basis", "Reference", "Content"],
-    aliases=["State", "Status", "Legal Basis", "Reference", "Content"],
-    localize=True,
-    sticky=True,
-    labels=True,
-    style="""
-        background-color: white;
-        border: 1px solid black;
-        border-radius: 3px;
-        padding: 6px;
-        font-size: 10px;
-    """,
+view_state = pdk.ViewState(
+    latitude=23.6345,
+    longitude=-102.5528,
+    zoom=4.5,
+    pitch=0,
 )
-
-folium.GeoJson(
-    gdf,
-    name="Regulatory Status",
-    style_function=style_function,
-    tooltip=tooltip
-).add_to(m)
 
 # ---------------------------
 # Streamlit UI
@@ -104,12 +108,30 @@ folium.GeoJson(
 
 st.title("🏍️ Moto Initiative: Interactive State Map")
 st.markdown("""
-This interactive map shows the **regulatory status** of the Moto initiative across Mexican States.
+This interactive map shows the *regulatory status* of the Moto initiative across Mexican States.
 
 Hover over each state to view legal and contextual details.
-(A dummy dataset is used for demonstration purposes).           
-
 """)
 
-st_folium(m, use_container_width=True, height=600)
+st.pydeck_chart(pdk.Deck(
+    layers=[polygon_layer],
+    initial_view_state=view_state,
+    map_style="light",
+    tooltip={"html": "{tooltip}", "style": {"fontSize": "11px"}}
+))
 
+# ---------------------------
+# Legal note
+# ---------------------------
+
+st.markdown("""<div style='margin-top: 1em'></div>""", unsafe_allow_html=True)
+st.markdown("""
+#### ℹ️ Legal context note
+
+*In Mexico, there is no state where it is legal to offer motorcycle taxi services through apps such as Uber or DiDi.*  
+*These services currently operate in a national legal vacuum, as no permits have been granted anywhere in the country.*
+
+*Furthermore, all Mexican states —except for Mexico City, Colima, Tabasco, and Veracruz— are members of the AMAM (Asociación Mexicana de Autoridades de Movilidad).*  
+*AMAM has issued an official statement against app-based motorcycle ride-hailing services, emphasizing the need for national regulation:*  
+👉 *[Read AMAM’s statement here](https://autoridadesdemovilidad.org/la-regulacion-nacional-de-motos-es-urgente-autoridades-estatales-y-municipales-listas-para-colaborar-con-el-gobierno-de-mexico/)*
+""")

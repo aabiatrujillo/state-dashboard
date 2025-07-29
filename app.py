@@ -40,100 +40,123 @@ initiatives = {
     "Initiative 1: Women Experts & Gender Guide": {
         "code": "i1",
         "color": "#800080",
-        "description": """
-<b style='font-size:16px;'>🚺 Espacio reservado para highlights de GA (I1):</b><br><br>
-<ul>
-<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-<li>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-<li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</li>
-</ul>
+        "description": """#### 🚺 Women Experts & Gender Guide
+
+- *DiDi sets an example* by launching the first mobility guide with a gender perspective by a digital platform, opening new opportunities for engagement with stakeholders such as Women’s Ministries and the Secretary of Government.
+
+- *By proactively addressing gender-inclusive mobility*, DiDi differentiates itself from competitors and attracts socially conscious users and partners in Mexico's growing market.
+
+- *Addressing gender-specific risks in mobility*, such as harassment and unsafe routes, helps build greater trust among female passengers and drivers.
+
+- In Mexico, many women face insecurity while commuting. *A gender-focused guide demonstrates that DiDi is attentive to local concerns and is actively working to close gender-based mobility gaps.*
+
+- *Promoting equitable access to safe and reliable transportation* reflects DiDi's commitment to diversity, equity, and social responsibility, which is vital for maintaining a positive reputation and fostering passengers' trust.
 """
     },
     "Initiative 2: DiDigitalízate": {
         "code": "i2",
         "color": "#FFA500",
-        "description": """
-<b style='font-size:16px;'>💻 Espacio reservado para highlights de GA (I2):</b><br><br>
-<ul>
-<li>Duis aute irure dolor in reprehenderit in voluptate velit esse.</li>
-<li>Cillum dolore eu fugiat nulla pariatur.</li>
-<li>Excepteur sint occaecat cupidatat non proident.</li>
-</ul>
+        "description": """#### 💻 DiDigitalízate
+
+- *DiDigitalízate is a free, eight-week online training program* offered by DiDi Food in partnership with COPARMEX, CANIRAC, CONCANACO, NAFIN, Universidad Anáhuac, Ulinea and local governments, that consists of eight modules covering topics such as digital marketing, sustainable business models, business diagnostics, sanitation best practices, and hospitality sales skills, among others.
+
+- *The goal of this program is to address the high closure rates among Mexican restaurants* by equipping restaurateurs with practical tools to improve their visibility and increase their revenue, especially for those who are new to delivery services.
+
+- *Key highlights of the program include:*
+    - *Contributing to social and economic development in Mexico*
+    - *Enhancing DiDi's influence* within the Secretary of Economy and the Secretary of Tourism
+    - *Launching in two major markets* (Jalisco and Nuevo León) by 2025
+    - *Expanding to 14 states* by 2025
 """
     },
     "Initiative 3: EVs": {
         "code": "i3",
         "color": "#228B22",
-        "description": """
-<b style='font-size:16px;'>🔋 Espacio reservado para highlights de GA (I3):</b><br><br>
-<ul>
-<li>Sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
-<li>Nunc sed blandit libero volutpat sed cras ornare arcu.</li>
-<li>Vel facilisis volutpat est velit egestas dui id ornare arcu.</li>
-</ul>
+        "description": """#### 🔋 EVs
+
+- *Promoting electric vehicles (EVs) opens new markets* for Chinese EV manufacturers, such as BYD, in line with China's strategy for global exports and clean technology.
+
+- *DiDi's initiatives in the EV sector position the company as a sustainability leader* in Mexico, gaining favor with eco-conscious users and government officials.
+
+- *Encouraging the use of EVs fosters closer economic ties between China and Mexico*, with potential investments in EV infrastructure and supply chains.
+
+- *By prioritizing electrification*, DiDi can differentiate itself from competitors like Uber by offering cleaner, technologically advanced ride options that align with urban mobility goals.
+
+- *Getting ahead in electrification* also allows DiDi to comply more effectively with current and future environmental policies in major Mexican cities.
 """
     },
     "Initiative 4: C5": {
         "code": "i4",
         "color": "#1E90FF",
-        "description": """
-<b style='font-size:16px;'>🎥 Espacio reservado para highlights de GA (I4):</b><br><br>
-<ul>
-<li>Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare.</li>
-<li>Fermentum et sollicitudin ac orci phasellus egestas tellus rutrum.</li>
-<li>Scelerisque eu ultrices vitae auctor eu augue.</li>
-</ul>
+        "description": """#### 🎥 C5
+
+- *It is important to demonstrate our commitment to safety conditions* by working closely with governors and C5 authorities.
+
+- *We aim to mitigate safety issues* through various safety initiatives.
+
+- *By providing access to trip data and connecting to emergency networks like C5/Emergency Portals*, DiDi aids authorities in responding more quickly to incidents and monitoring high-risk areas in real-time. This enhances overall security for rides and allows for the sharing of critical information such as vehicle plates, model, color, cellphone numbers, names, and locations.
+
+- *Contributing ride information to local authorities showcases DiDi’s dedication to transparency and collaboration.* This facilitates smoother regulatory approvals and helps DiDi gain official recognition.
 """
     },
     "Initiative 5: Trip Donation": {
         "code": "i5",
         "color": "#FF69B4",
-        "description": """
-<b style='font-size:16px;'>🎁 Espacio reservado para highlights de GA (I5):</b><br><br>
-<ul>
-<li>Integer feugiat scelerisque varius morbi.</li>
-<li>Massa tempor nec feugiat nisl pretium fusce id velit.</li>
-<li>Pellentesque pulvinar pellentesque habitant morbi tristique senectus.</li>
-</ul>
+        "description": """#### 🎁 Trip Donation
+
+- *DiDi demonstrates its commitment to cooperating with public authorities and law enforcement*, fostering regulatory trust, and facilitating compliance in city-level partnerships and initiatives focused on safer travel.
+
+- *It positions DiDi as a dedicated ally* in combating gender-based violence through tangible, high-impact actions.
+
+- *The company enables women in vulnerable situations to safely access justice centers and support services at no cost.*
+
+- *DiDi transforms mobility into a tool* for gaining access to protection, legal support, and dignity.
+
+- *Additionally, it builds trust with government stakeholders* by providing timely and meaningful collaboration that goes beyond commercial interests.
 """
     },
     "Initiative 6: Business Chambers": {
         "code": "i6",
         "color": "#8B4513",
-        "description": """
-<b style='font-size:16px;'>🏛️ Espacio reservado para highlights de GA (I6):</b><br><br>
-<ul>
-<li>At elementum eu facilisis sed odio morbi quis.</li>
-<li>Sit amet nulla facilisi morbi tempus iaculis urna id volutpat.</li>
-<li>Faucibus pulvinar elementum integer enim neque.</li>
-</ul>
+        "description": """#### 🏛️ Business Chambers
+
+- *Chambers advocate for fair and clear regulations*, assisting DiDi in navigating local laws to avoid operational disruptions while enhancing its reputation as a supportive ally of the private sector.
+
+- *They act as a third-party validator*, connecting DiDi with local businesses, governments, and service providers, which fosters strategic alliances and promotes smoother operations.
+
+- *This approach positions DiDi as a key player in digital transformation* and facilitates the dissemination of the company's initiatives through chamber forums, such as ABAUSTUR and the COPARMEX International SME Fair.
 """
     },
     "Initiative 7: PTP Taxi": {
         "code": "i7",
         "color": "#FFD300",
-        "description": """
-<b style='font-size:16px;'>🚖 Espacio reservado para highlights de GA (I7):</b><br><br>
-<ul>
-<li>Justo eget magna fermentum iaculis eu non diam phasellus.</li>
-<li>Est ultricies integer quis auctor elit sed vulputate.</li>
-<li>Lacus sed turpis tincidunt id aliquet risus feugiat.</li>
-</ul>
+        "description": """#### 🚖 PTP Taxi
+
+- *Create a win-win scenario with mobility authorities* by providing a safe, accessible, and technology-driven alternative to the traditional public transportation system.
+
+- *Promote digital inclusion for taxi operators*, enhance service reliability, and contribute to safer, traceable mobility. Expand our GR community.
+
+- *Engage with high-level stakeholders*, such as the governor of Querétaro, by launching this initiative with them.
 """
     },
     "Initiative 8: Moto": {
         "code": "i8",
         "color": "#800020",
-        "description": """
-<b style='font-size:16px;'>🏍️ Espacio reservado para highlights de GA (I8):</b><br><br>
-<ul>
-<li>Vulputate enim nulla aliquet porttitor lacus luctus accumsan.</li>
-<li>Vitae congue eu consequat ac felis donec et odio.</li>
-<li>Aenean vel elit scelerisque mauris pellentesque pulvinar.</li>
-</ul>
+        "description": """#### 🏍️ Moto
+
+- *Position moto hailing as a safe and professional mobility option.*
+
+- *Strengthen grassroots support* to protect moto hailing services from restrictive policies.
+
+- *Create visibility and influence with key decision-makers* by mobilizing motorcycle users, drivers, and allies at the local level.
+
+- *Reframe motorcycles as an inclusive and accessible transportation option*, particularly in underserved areas.
+
+- *Align with national road safety goals* by training over 1,200 motorcycle drivers and couriers in partnership with ANASEVI.
 """
     }
 }
+
 
 # ---------------------------
 # Load data
@@ -148,8 +171,7 @@ df = load_data()
 
 st.title("📈 State-Level Initiative Dashboard")
 st.markdown("""
-H1 2025 saw GA MX driving 8 high-impact initiatives across state governments — here’s what we achieved.
-(A dummy dataset is used for demonstration purposes).
+#### H1 2025 saw GA MX driving 8 high-impact initiatives across state governments — here’s what we achieved.
 """)
 
 initiative_name = st.selectbox("Select an initiative:", list(initiatives.keys()))
@@ -208,7 +230,7 @@ gdf["valor"] = gdf[initiative_code]
 col1, col2 = st.columns([1, 1.2])
 
 with col1:
-    st.subheader("📍 Results")
+    st.subheader("📍 Highlights")
     st.markdown(initiatives[initiative_name]["description"], unsafe_allow_html=True)
 
 with col2:
