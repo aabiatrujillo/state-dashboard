@@ -4,7 +4,6 @@ import geopandas as gpd
 import matplotlib.pyplot as plt
 import matplotlib.patheffects as path_effects
 import matplotlib.colors as mcolors
-from matplotlib.colors import LinearSegmentedColormap
 import io
 
 # ---------------------------
@@ -42,15 +41,11 @@ initiatives = {
         "color": "#800080",
         "description": """#### 🚺 Women Experts & Gender Guide
 
-- *DiDi sets an example* by launching the first mobility guide with a gender perspective by a digital platform, opening new opportunities for engagement with stakeholders such as Women’s Ministries and the Secretary of Government.
+> **DiDi sets an example** in launching the first **mobility guide with a gender perspective** by a digital platform in Mexico, opening new opportunities for engagement with stakeholders such as **Women’s Ministries** and the **Secretary of Government**.
 
-- *By proactively addressing gender-inclusive mobility*, DiDi differentiates itself from competitors and attracts socially conscious users and partners in Mexico's growing market.
-
-- *Addressing gender-specific risks in mobility*, such as harassment and unsafe routes, helps build greater trust among female passengers and drivers.
-
-- In Mexico, many women face insecurity while commuting. *A gender-focused guide demonstrates that DiDi is attentive to local concerns and is actively working to close gender-based mobility gaps.*
-
-- *Promoting equitable access to safe and reliable transportation* reflects DiDi's commitment to diversity, equity, and social responsibility, which is vital for maintaining a positive reputation and fostering passengers' trust.
+**📊 Key figures:**
+- **1 Federal Guide + 3 State Guides finalized** MTY, GDL, QROO + **3 in the making** CDMX, MOR, EDOMEX  
+- **14 new different stakeholders engaged**
 """
     },
     "Initiative 2: DiDigitalízate": {
@@ -58,15 +53,14 @@ initiatives = {
         "color": "#FFA500",
         "description": """#### 💻 DiDigitalízate
 
-- *DiDigitalízate is a free, eight-week online training program* offered by DiDi Food in partnership with COPARMEX, CANIRAC, CONCANACO, NAFIN, Universidad Anáhuac, Ulinea and local governments, that consists of eight modules covering topics such as digital marketing, sustainable business models, business diagnostics, sanitation best practices, and hospitality sales skills, among others.
+> **DiDigitalízate** is a **free, eight-week online training program** offered by DiDi Food, consisting of a **quick, 20 hour training** for **Small and Medium Businesses** to support the business and **boosting our Advocacy** with Local stakeholders.
 
-- *The goal of this program is to address the high closure rates among Mexican restaurants* by equipping restaurateurs with practical tools to improve their visibility and increase their revenue, especially for those who are new to delivery services.
-
-- *Key highlights of the program include:*
-    - *Contributing to social and economic development in Mexico*
-    - *Enhancing DiDi's influence* within the Secretary of Economy and the Secretary of Tourism
-    - *Launching in two major markets* (Jalisco and Nuevo León) by 2025
-    - *Expanding to 14 states* by 2025
+**📊 Key figures:**
+- **8 modules** covering topics such as digital marketing, sustainable business models, business diagnostics, sanitation best practices, and hospitality sales skills, among others  
+- **8 key partners**: COPARMEX, CANIRAC, CONCANACO, NAFIN, Universidad Anáhuac, Ulinea and local governments  
+- **3297 Restaurants engaged** so far  
+- **14 States engaged** by 2025  
+- **1 Senate forum** with legislators and chamber presidents to talk about digital tools for SMEs
 """
     },
     "Initiative 3: EVs": {
@@ -74,15 +68,11 @@ initiatives = {
         "color": "#228B22",
         "description": """#### 🔋 EVs
 
-- *Promoting electric vehicles (EVs) opens new markets* for Chinese EV manufacturers, such as BYD, in line with China's strategy for global exports and clean technology.
+> DiDi's initiatives in the **EV sector** position us as a **key Sustainability leader** in Mexico, with a **unique innovation agenda** to discuss with government officials from **Federal & Local levels**.
 
-- *DiDi's initiatives in the EV sector position the company as a sustainability leader* in Mexico, gaining favor with eco-conscious users and government officials.
-
-- *Encouraging the use of EVs fosters closer economic ties between China and Mexico*, with potential investments in EV infrastructure and supply chains.
-
-- *By prioritizing electrification*, DiDi can differentiate itself from competitors like Uber by offering cleaner, technologically advanced ride options that align with urban mobility goals.
-
-- *Getting ahead in electrification* also allows DiDi to comply more effectively with current and future environmental policies in major Mexican cities.
+**📊 Key figures:**
+- **2 Federal authorities reached**: Ing. Mauricio Montesinos, Head of Office of the Director of Basic Electrical Supply, & Ing. Víctor Arellano, Senior Manager at Programa de Ahorro de Energía del Sector Eléctrico (PAESE), both middle-level public servants at CFE  
+- **1 State with a fixed innovation project**: Nuevo León (in negotiations to exchange mobility fund for vehicle acquisition)
 """
     },
     "Initiative 4: C5": {
@@ -90,13 +80,12 @@ initiatives = {
         "color": "#1E90FF",
         "description": """#### 🎥 C5
 
-- *It is important to demonstrate our commitment to safety conditions* by working closely with governors and C5 authorities.
+> By **providing access to trip data** (vehicle plates, model, color, cellphone numbers, names of DRV + PAX, and locations) and **connecting to emergency networks** like C5/Emergency Portals, DiDi aids authorities in **responding more quickly to incidents** and **monitoring high-risk areas** in real-time.
 
-- *We aim to mitigate safety issues* through various safety initiatives.
-
-- *By providing access to trip data and connecting to emergency networks like C5/Emergency Portals*, DiDi aids authorities in responding more quickly to incidents and monitoring high-risk areas in real-time. This enhances overall security for rides and allows for the sharing of critical information such as vehicle plates, model, color, cellphone numbers, names, and locations.
-
-- *Contributing ride information to local authorities showcases DiDi’s dedication to transparency and collaboration.* This facilitates smoother regulatory approvals and helps DiDi gain official recognition.
+**📊 Key figures:**
+- **Announced in**: AGS, SON, JAL, NL, BCS  
+- **4 WIP** (CDMX, COAH, MOR, EDOMEX)  
+- **4 Events in H1**
 """
     },
     "Initiative 5: Trip Donation": {
@@ -104,15 +93,12 @@ initiatives = {
         "color": "#FF69B4",
         "description": """#### 🎁 Trip Donation
 
-- *DiDi demonstrates its commitment to cooperating with public authorities and law enforcement*, fostering regulatory trust, and facilitating compliance in city-level partnerships and initiatives focused on safer travel.
+> DiDi demonstrates its commitment to **cooperating with public authorities** and **law enforcement** by enabling **Trips donations to women in vulnerable situations** to safely access **justice centers** and **support services** at no cost, facilitating **city-level partnerships**.
 
-- *It positions DiDi as a dedicated ally* in combating gender-based violence through tangible, high-impact actions.
-
-- *The company enables women in vulnerable situations to safely access justice centers and support services at no cost.*
-
-- *DiDi transforms mobility into a tool* for gaining access to protection, legal support, and dignity.
-
-- *Additionally, it builds trust with government stakeholders* by providing timely and meaningful collaboration that goes beyond commercial interests.
+**📊 Key figures:**
+- **6 City-level partnerships**  
+- **4000** (NL, CUU, BC, ZAC) **Total trips donated**  
+- **6 WIPs**
 """
     },
     "Initiative 6: Business Chambers": {
@@ -120,11 +106,11 @@ initiatives = {
         "color": "#8B4513",
         "description": """#### 🏛️ Business Chambers
 
-- *Chambers advocate for fair and clear regulations*, assisting DiDi in navigating local laws to avoid operational disruptions while enhancing its reputation as a supportive ally of the private sector.
+> **Chambers advocate for fair and clear regulations**, assisting DiDi in **navigating local laws** to avoid **operational disruptions** while **enhancing its reputation** as a relevant ally within the private sector.
 
-- *They act as a third-party validator*, connecting DiDi with local businesses, governments, and service providers, which fosters strategic alliances and promotes smoother operations.
-
-- *This approach positions DiDi as a key player in digital transformation* and facilitates the dissemination of the company's initiatives through chamber forums, such as ABAUSTUR and the COPARMEX International SME Fair.
+**📊 Key figures:**
+- **42 Partnerships achieved** in states  
+- **8 Events, Webinars and Chamber Forums**: ABAUSTUR, COPARMEX International SME Fair, ANPEC collaboration
 """
     },
     "Initiative 7: PTP Taxi": {
@@ -132,11 +118,12 @@ initiatives = {
         "color": "#FFD300",
         "description": """#### 🚖 PTP Taxi
 
-- *Create a win-win scenario with mobility authorities* by providing a safe, accessible, and technology-driven alternative to the traditional public transportation system.
+> **New launches**, and PTP Taxi is helping create a **win-win scenario with mobility authorities** by providing **technology** and a **safer, more accessible alternative** to the traditional public transportation system.
 
-- *Promote digital inclusion for taxi operators*, enhance service reliability, and contribute to safer, traceable mobility. Expand our GR community.
-
-- *Engage with high-level stakeholders*, such as the governor of Querétaro, by launching this initiative with them.
+**📊 Key figures:**
+- **3 Mkts Launch with GA support**  
+- **1 Governor-level event** in Querétaro  
+- **10+ Taxi leaders engaged**
 """
     },
     "Initiative 8: Moto": {
@@ -144,15 +131,27 @@ initiatives = {
         "color": "#800020",
         "description": """#### 🏍️ Moto
 
-- *Position moto hailing as a safe and professional mobility option.*
+> As one of the **most controversial transport alternatives**, our goal is to **position moto hailing as an inclusive and accessible transportation option**, particularly in **underserved areas**, and **shield the product** ahead of **strong regulatory prohibitions**.
 
-- *Strengthen grassroots support* to protect moto hailing services from restrictive policies.
+**📊 Key figures:**
+- **5 markets launched** so far  
+- **8 Rumbo Seguro’s events** in CDMX and EDOMEX  
+- **1,500 couriers and drivers engaged**  
+- **198 Moto GR + 5 Grasstops - CDMX**  
+- **60 Moto GR - GDL + 2 Grasstops - GDL**
+"""
+    },
+    "Initiative 9: Grassroots": {
+        "code": "i9",
+        "color": "#FFA500",
+        "description": """#### 🧱 Grassroots
 
-- *Create visibility and influence with key decision-makers* by mobilizing motorcycle users, drivers, and allies at the local level.
+> **Bottom-up movements** legitimizing **social impact** of digital platforms in the country, that contribute to support **Federal + local regulations**, Taxi, Launches, and business initiatives, while **building trust among communities**.
 
-- *Reframe motorcycles as an inclusive and accessible transportation option*, particularly in underserved areas.
-
-- *Align with national road safety goals* by training over 1,200 motorcycle drivers and couriers in partnership with ANASEVI.
+**📊 Key figures:**
+- **40 communities engaged**  
+- **16/32 States with allied communities**  
+- **+1400 Total GR engaged MX**
 """
     }
 }
@@ -233,35 +232,52 @@ with col1:
     st.subheader("📍 Highlights")
     st.markdown(initiatives[initiative_name]["description"], unsafe_allow_html=True)
 
+    
+
+
+
+
+
 with col2:
     st.subheader("🌍 Geographic Coverage")
 
     plt.rcParams['lines.antialiased'] = True
     plt.rcParams['patch.antialiased'] = True
 
-    custom_cmap = LinearSegmentedColormap.from_list(
-        initiative_name,
-        colors=["#ffffff", color_base]
-    )
+    def adjust_color_brightness(hex_color, factor=0.25):
+        rgb = mcolors.hex2color(hex_color)
+        lighter_rgb = tuple(1 - (1 - c) * factor for c in rgb)
+        return mcolors.to_hex(lighter_rgb)
+
+    # Categorización para tres niveles: 2 (fuerte), 1 (suave), NaN (sin datos)
+    gdf["valor_categoria"] = gdf["valor"].map({2: "alto", 1: "bajo"})
+
+    color_fuerte = color_base
+    color_suave = adjust_color_brightness(color_base, factor=0.6)
+    color_nulo = "lightgrey"
+
+    color_dict = {
+        "alto": color_fuerte,
+        "bajo": color_suave,
+        None: color_nulo
+    }
+
+    gdf["color"] = gdf["valor_categoria"].map(color_dict)
+    gdf["color"] = gdf["color"].fillna(color_nulo)
 
     fig, ax = plt.subplots(figsize=(6, 4), dpi=300)
     gdf.plot(
-        column="valor",
-        cmap=custom_cmap,
+        color=gdf["color"],
         linewidth=0.5,
         edgecolor="gray",
-        vmin=0, vmax=1,
-        legend=False,
-        missing_kwds={"color": "lightgrey", "label": "No data"},
         ax=ax
-    ) 
+    )
 
     text_effect = path_effects.withStroke(linewidth=2, foreground="white")
     drawn_labels = []
     for _, row in gdf.iterrows():
         if (
             pd.notna(row.get("entidad")) and
-            pd.notna(row.get("valor")) and
             row.geometry and
             not row.geometry.is_empty
         ):
