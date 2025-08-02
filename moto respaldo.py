@@ -17,7 +17,6 @@ st.set_page_config(page_title="Moto Initiative Map (Pydeck)", layout="wide")
 @st.cache_data
 def load_geojson():
     gdf = gpd.read_file("map/estados_mexico_limpio.geojson")
-    gdf = gdf.to_crs(epsg=4326)
     gdf["ent"] = gdf["ent"].astype(str).str.zfill(2)
     gdf["entidad"] = gdf["entidad"].str.strip().str.upper()
     return gdf
@@ -50,6 +49,7 @@ color_dict = {
     "Green": [34, 139, 34, 120]    # Forest Green, semi-transparent
 }
 
+# Apply fill color
 gdf["fill_color"] = gdf["color"].apply(lambda c: color_dict.get(c, [211, 211, 211, 120]))
 
 # ---------------------------
@@ -61,16 +61,13 @@ geojson_data = json.loads(gdf.to_json())
 for feature in geojson_data["features"]:
     props = feature["properties"]
     props["fill_color"] = color_dict.get(props.get("color"), [211, 211, 211, 120])
-
+    
+    # ✅ Ensure correct handling of AMAM field (as number or string)
     amam_raw = props.get("amam")
     amam_value = "Yes" if str(int(float(amam_raw))) == "1" else "No" if amam_raw is not None else "N/A"
-
-    moto_raw = props.get("moto")
-    moto_value = "Yes" if str(int(float(moto_raw))) == "1" else "No" if moto_raw is not None else "N/A"
-
+    
     props["tooltip"] = f"""
         <b>{props.get('entidad')}</b><br>
-        <b>DiDi Moto:</b> {moto_value}<br>
         <b>AMAM:</b> {amam_value}<br>
         <b>Status:</b> {props.get('Status', 'N/A')}<br>
         <b>Legal Basis:</b> {props.get('Legal Basis', 'N/A')}<br>
@@ -79,7 +76,7 @@ for feature in geojson_data["features"]:
     """
 
 # ---------------------------
-# GeoJsonLayer
+# Pydeck GeoJsonLayer only
 # ---------------------------
 
 polygon_layer = pdk.Layer(
@@ -92,35 +89,6 @@ polygon_layer = pdk.Layer(
     get_line_color=[0, 0, 0],
     line_width_min_pixels=1,
     pickable=True,
-)
-
-# ---------------------------
-# TextLayer (moto emoji in states with moto==1)
-# ---------------------------
-
-gdf_moto = gdf[gdf["moto"] == 1].copy()
-gdf_moto_proj = gdf_moto.to_crs(epsg=6372)
-gdf_moto_proj["centroid"] = gdf_moto_proj.geometry.centroid
-centroids = gdf_moto_proj.set_geometry("centroid").to_crs(epsg=4326)
-
-emoji_df = pd.DataFrame({
-    "text": ["\U0001F6F5"] * len(centroids),  # 🏍️
-    "lat": centroids.geometry.y,
-    "lon": centroids.geometry.x
-})
-
-text_layer = pdk.Layer(
-    "TextLayer",
-    data=emoji_df,
-    get_position='[lon, lat]',
-    get_text="text",
-    get_size=32,
-    get_color=[0, 0, 0],
-    sizeUnits='pixels',
-    sizeScale=4,
-    sizeMinPixels=24,
-    billboard=True,
-    pickable=False
 )
 
 # ---------------------------
@@ -138,7 +106,7 @@ view_state = pdk.ViewState(
 # Streamlit UI
 # ---------------------------
 
-st.title("\U0001F6F5 Moto Initiative: Interactive State Map")
+st.title("🏍️ Moto Initiative: Interactive State Map")
 st.markdown("""
 This interactive map shows the *regulatory status* of the Moto initiative across Mexican States.
 
@@ -146,7 +114,7 @@ Hover over each state to view legal and contextual details.
 """)
 
 st.pydeck_chart(pdk.Deck(
-    layers=[polygon_layer, text_layer],
+    layers=[polygon_layer],
     initial_view_state=view_state,
     map_style="light",
     tooltip={"html": "{tooltip}", "style": {"fontSize": "11px"}}

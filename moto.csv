@@ -1,37 +1,37 @@
-ent,entidad,Status,color,amam,Legal Basis,Reference,Content
-1,AGS,Explicitly prohibited,Red+,1,Aguascalientes State Mobility Law,Art 135°,It established that TNC can´t provide their services in motorcycles. 
-2,BC,Explicitly prohibited,Red+,1,Baja California Sustainable Mobility and Transportation Law,Art 92°,It established that TNC can´t provide their services in motorcycles. 
-3,BCS,Unregulated,Gray,1,Baja California Sur State Transportation Law,"Art 139°, fracc VIII","The vehicle must have seat belts for all passengers, front airbags, ABS brakes, first aid kit, universal A, B, and C powder fire extinguisher, at least four doors, window tinting not exceeding 20%, air conditioning, and reflective safety markings."
-4,CAMP,Explicitly prohibited,Red+,1,Transportation Regulations of the Campeche State Mobility and Road Safety Law,Art 246°,It establishes that four-wheeled vehicles must be used.
-7,CHIS,Explicitly prohibited,Red+,1,Chiapas State Mobility and Transportation Law,Art 116°,"The vehicle must be equipped with seat belts, air conditioning, a sound system, and front airbags."
-8,CHIH,Unregulated,Gray,1,,,
-9,CDMX,Explicitly prohibited,Red+,0,Regulation of the Mobility Law of Mexico City,Art 58°,It established that TNC can´t provide their services in motorcycles. 
-5,COAH,Implicity prohibited,Red,1,Coahuila State Transportation and Sustainable Mobility Law,Art 100°,It establishes that sedan vehicles must be used.
-6,COL,Unregulated,Gray,0,,,
-10,DGO,Implicity prohibited,Red,1,Durango State Transportation Law,Art 95° Duodecies,"Requires vehicle to have seat belts, air conditioning, sound system, and front airbags."
-11,GTO,Implicity prohibited,Red,1,Guanajuato State and Municipalities Mobility Law,Art112° Bis,"It establishes that drivers must have an A or B license, while motorcyclists must have a D license."
-12,GRO,Unregulated,Gray,1,,,
-13,HGO,Unregulated,Gray,1,,,
-14,JAL,Implicity prohibited,Red,1,Jalisco State Mobility and Transportation Law,"Art 215° fracc. XVI
+ent,entidad,Status,color,amam,moto,Legal Basis,Reference,Content
+1,AGS,Explicitly prohibited,Red+,1,0,Aguascalientes State Mobility Law,Art 135°,It established that TNC can´t provide their services in motorcycles. 
+2,BC,Explicitly prohibited,Red+,1,0,Baja California Sustainable Mobility and Transportation Law,Art 92°,It established that TNC can´t provide their services in motorcycles. 
+3,BCS,Unregulated,Gray,1,0,Baja California Sur State Transportation Law,"Art 139°, fracc VIII","The vehicle must have seat belts for all passengers, front airbags, ABS brakes, first aid kit, universal A, B, and C powder fire extinguisher, at least four doors, window tinting not exceeding 20%, air conditioning, and reflective safety markings."
+4,CAMP,Explicitly prohibited,Red+,1,0,Transportation Regulations of the Campeche State Mobility and Road Safety Law,Art 246°,It establishes that four-wheeled vehicles must be used.
+7,CHIS,Explicitly prohibited,Red+,1,0,Chiapas State Mobility and Transportation Law,Art 116°,"The vehicle must be equipped with seat belts, air conditioning, a sound system, and front airbags."
+8,CHIH,Unregulated,Gray,1,0,,,
+9,CDMX,Explicitly prohibited,Red+,0,1,Regulation of the Mobility Law of Mexico City,Art 58°,It established that TNC can´t provide their services in motorcycles. 
+5,COAH,Implicity prohibited,Red,1,0,Coahuila State Transportation and Sustainable Mobility Law,Art 100°,It establishes that sedan vehicles must be used.
+6,COL,Unregulated,Gray,0,1,,,
+10,DGO,Implicity prohibited,Red,1,1,Durango State Transportation Law,Art 95° Duodecies,"Requires vehicle to have seat belts, air conditioning, sound system, and front airbags."
+11,GTO,Implicity prohibited,Red,1,1,Guanajuato State and Municipalities Mobility Law,Art112° Bis,"It establishes that drivers must have an A or B license, while motorcyclists must have a D license."
+12,GRO,Unregulated,Gray,1,0,,,
+13,HGO,Unregulated,Gray,1,0,,,
+14,JAL,Implicity prohibited,Red,1,1,Jalisco State Mobility and Transportation Law,"Art 215° fracc. XVI
 Art 302°
 ","Prohibits the use of motorcycles for transportation services without prior authorization (Art. 215).
 Establishes that transportation company vehicles must have an “interior.”Establece que los vehículos de las empresas de transporte deben tener un ""interior"""
-15,MEX,Unregulated,Gray,1,,,
-16,MICH,Explicitly prohibited,Red+,1,General Law on Mobility and Road Safety for the State of Michoacán,Art 225°,Transportation using motorcycles for this purpose is prohibited.
-17,MOR,Unregulated,Gray,1,,,
-18,NAY,Implicity prohibited,Red,1,Law on Mobility for the State of Nayarit,Art 371°,"Requires vehicle to have seat belts, air conditioning, four doors, sound system, and front airbags."
-19,NL,Explicitly prohibited,Red+,1,"Regulations of the Law on Sustainable Mobility, Accessibility, and Road Safety for the State of Nuevo León.",Art 82° Bis 3,"Refrain from carrying passengers on motorcycles or similar vehicles, with the exception of motorcycle taxis that have been determined by the Institute to be technically viable under the terms of the Law."
-20,OAX,Implicity prohibited,Red,1,Law on Mobility for the State of Oaxaca,Art 72°,It establishes that concessions for motorcycle taxi services will only be granted to individuals.
-21,PUE,Explicitly prohibited,Red+,1,Regulations for the Law on Transportation for the State of Puebla,"Art 31°
+15,MEX,Unregulated,Gray,1,1,,,
+16,MICH,Explicitly prohibited,Red+,1,1,General Law on Mobility and Road Safety for the State of Michoacán,Art 225°,Transportation using motorcycles for this purpose is prohibited.
+17,MOR,Unregulated,Gray,1,1,,,
+18,NAY,Implicity prohibited,Red,1,0,Law on Mobility for the State of Nayarit,Art 371°,"Requires vehicle to have seat belts, air conditioning, four doors, sound system, and front airbags."
+19,NL,Explicitly prohibited,Red+,1,0,"Regulations of the Law on Sustainable Mobility, Accessibility, and Road Safety for the State of Nuevo León.",Art 82° Bis 3,"Refrain from carrying passengers on motorcycles or similar vehicles, with the exception of motorcycle taxis that have been determined by the Institute to be technically viable under the terms of the Law."
+20,OAX,Implicity prohibited,Red,1,1,Law on Mobility for the State of Oaxaca,Art 72°,It establishes that concessions for motorcycle taxi services will only be granted to individuals.
+21,PUE,Explicitly prohibited,Red+,1,0,Regulations for the Law on Transportation for the State of Puebla,"Art 31°
 Art 40°","The Secretariat of Mobility will “promote” that vehicles have seat belts, front airbags, ABS brakes, anchorage points for child restraints, and electronic stability control (Art. 31).Los vehiculos utilizados deben de tener un valor mínimo en factura de origen de 3000 UMAS (Art 40°)"
-22,QRO,Unregulated,Gray,1,Law on the Mobility Agency and Public Transport Modalities for the State of Querétaro,Art 121° Noniesvicies ,
-23,QROO,Implicity prohibited,Red,1,Law on Mobility for the State of Quintana Roo,Art 163° Fracc. II,"It stipulates that the vehicles used must have four doors, air conditioning, a sound system, seat belts, and front airbags."
-24,SLP,Implicity prohibited,Red,1,Law on Public Transport for the State of San Luis Potosí,"Art 71° Fracc I, inciso A","The vehicle must have capacity for 5 people, airbags, anti-lock brakes, and a 260-liter trunk."
-25,SIN,Unregulated,Gray,1,,,
-26,SON,Unregulated,Gray,1,,,
-27,TAB,Implicity prohibited,Red,0,Regulations of the Mobility Law for the State of Tabasco,Art 88° Fracc. I,All vehicles used to provide individual passenger transport services in any form must have four doors.
-28,TAMPS,Implicity prohibited,Red,1,Transport Law for the State of Tamaulipas,Art 33° Quindecies,"It stipulates that the vehicles used must have four doors, air conditioning, seat belts, and front airbags."
-29,TLAX,Unregulated,Gray,1,,,
-30,VER,Unregulated,Gray,0,Traffic and Transport Law for the State of Veracruz,Art 118°,The only passenger transport service considered is taxi.
-31,YUC,Implicity prohibited,Red,1,Mobility and Road Safety Law for the State of Yucatán,Art 143°,The service can only be provided by four-wheeled motor vehicles.
-32,ZAC,Unregulated,Gray,1,,,
+22,QRO,Unregulated,Gray,1,1,Law on the Mobility Agency and Public Transport Modalities for the State of Querétaro,Art 121° Noniesvicies ,
+23,QROO,Implicity prohibited,Red,1,1,Law on Mobility for the State of Quintana Roo,Art 163° Fracc. II,"It stipulates that the vehicles used must have four doors, air conditioning, a sound system, seat belts, and front airbags."
+24,SLP,Implicity prohibited,Red,1,1,Law on Public Transport for the State of San Luis Potosí,"Art 71° Fracc I, inciso A","The vehicle must have capacity for 5 people, airbags, anti-lock brakes, and a 260-liter trunk."
+25,SIN,Unregulated,Gray,1,1,,,
+26,SON,Unregulated,Gray,1,0,,,
+27,TAB,Implicity prohibited,Red,0,1,Regulations of the Mobility Law for the State of Tabasco,Art 88° Fracc. I,All vehicles used to provide individual passenger transport services in any form must have four doors.
+28,TAMPS,Implicity prohibited,Red,1,0,Transport Law for the State of Tamaulipas,Art 33° Quindecies,"It stipulates that the vehicles used must have four doors, air conditioning, seat belts, and front airbags."
+29,TLAX,Unregulated,Gray,1,1,,,
+30,VER,Unregulated,Gray,0,0,Traffic and Transport Law for the State of Veracruz,Art 118°,The only passenger transport service considered is taxi.
+31,YUC,Implicity prohibited,Red,1,1,Mobility and Road Safety Law for the State of Yucatán,Art 143°,The service can only be provided by four-wheeled motor vehicles.
+32,ZAC,Unregulated,Gray,1,0,,,
